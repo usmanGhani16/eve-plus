@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- google-font -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Germania+One" rel="stylesheet">
+    <!-- font awsome -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- animation.css -->
+    <link rel="stylesheet" href="CSS/animate.css">
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <style>
+    
+    
+    
+    </style>
+</head>
+
+<body>
+
+
+    <div class="container">
+        <div class="row">
+
+<form action="">
+        <input type="text" id="myText" class="form-control">
+        <button class="btn btn-primary"onclick="myFunction()">Try it</button>
+</form>
+               
+                
+                <p id="demo"></p>
+                
+             
+               
+        </div>
+    </div>
+    <section >
+        <div class="fixed">
+               <button class="btn btn-info" id="fixed" onmouseover="fixed()" onmouseout="fixed1()"> <i class="fas fa-phone fa-1x"></i> </button>
+        </div>
+    </section>
+
+    <p id="n1"></p>
+
+
+    <p id="d1"></p>
+    
+    
+    <p id="l1"></p>
+    
+    <script>
+    
+    var ReportData;
+    ReportData = {"Name":"Marry","Date":"27/3/2019", "Location":"Nazimabad, Karachi Pakistan"};
+    
+    document.getElementById("n1").innerHTML = "Name: " + ReportData.Name;
+    
+    document.getElementById("d1").innerHTML = "Date: " + ReportData.Date;
+    
+    document.getElementById("l1").innerHTML = "Location: " + ReportData.Location;
+    
+    </script>
+    
+
+
+
+    <!-- js goes here -->
+    <!-- font js -->
+    <script src="js/all.min.js"></script>
+    <!-- jquery -->
+    <script src="js/jquery.js"></script>
+    <!-- bootstrap js -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- animation -->
+    <script src="js/wow.min.js"></script>
+    <!-- custom js -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
